@@ -9,6 +9,7 @@ contract DeployRouter is Script {
         0x2abe0860D81FB4242C748132bD69D125D88eaE26;
     address public interchainGasPaymaster =
         0xF90cB82a76492614D07B82a7658917f3aC811Ac1;
+    /// Too lazy to input specifc gas amount so 1M is fine lmeow
     uint256 public gasAmount = 1000000;
 
     function run() external {
