@@ -29,6 +29,7 @@ Create subscriptions on one chain but subscribe/extend on any chain
 4. Set up variables in ./script/
 
    CCTP uses tokens from this [faucet](https://usdcfaucet.com/)
+   
    [Hyperlane addresses](https://docs.hyperlane.xyz/docs/resources/addresses)
 
 5. Deploy router by entering into terminal:
