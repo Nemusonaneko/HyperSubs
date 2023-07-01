@@ -26,17 +26,18 @@ Create subscriptions on one chain but subscribe/extend on any chain
 1. git clone https://github.com/Nemusonaneko/HyperSubs.git
 2. forge install
 3. Create .env copying .env.example
-4. Set up variables in ./script/
+4. source .env
+5. Set up variables in ./script/
 
    CCTP uses tokens from this [faucet](https://usdcfaucet.com/)
-   
+
    [Hyperlane addresses](https://docs.hyperlane.xyz/docs/resources/addresses)
 
-5. Deploy router by entering into terminal:
+6. Deploy router by entering into terminal:
 
    forge script script/DeployRouter.sol:DeployRouter --rpc-url "${RPC_URL}" --broadcast --verify --etherscan-api-key "${EXPLORER_API_KEY}" -vvvv
 
-6. Repeat the same thing for other script.
+7. Repeat the same thing for other script.
 
 #### More Docs:
 [Hyperlane](https://docs.hyperlane.xyz/docs/introduction/readme)
